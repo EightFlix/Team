@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hi {},
-My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️Powered by :- @YourX """
+My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️ Powered by :- @YourX 🤹🏻"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙰𝙹𝙰𝚇-𝙿𝚁𝙾-𝙼𝙰𝚇</b>

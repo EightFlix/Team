@@ -202,18 +202,18 @@ async def next_page(bot, query):
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}",
+             InlineKeyboardButton(f" 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(f" 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("⬅️ 𝗕𝗮𝗰𝗸", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🌹 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton(f" 𝗣𝗮𝗴𝗲 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
@@ -788,43 +788,43 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('𝙼anuel Filter', callback_data='manuelfilter'),
+            InlineKeyboardButton('Auto Filter', callback_data='autofilter'),
+            InlineKeyboardButton('Connection', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video')
+            InlineKeyboardButton('Song', callback_data='songs'),
+            InlineKeyboardButton('Extra', callback_data='extra'),
+            InlineKeyboardButton("Video", callback_data='video')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
+            InlineKeyboardButton('Pin', callback_data='pin'), 
+            InlineKeyboardButton('Paste', callback_data='pastes'),
+            InlineKeyboardButton("Image", callback_data='image')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('Fun', callback_data='fun'), 
+            InlineKeyboardButton('Jsone', callback_data='son'),
+            InlineKeyboardButton('Tts', callback_data='ttss')
             ],[
-            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings'),
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele')
+            InlineKeyboardButton('Purge', callback_data='purges'),
+            InlineKeyboardButton('Ping', callback_data='pings'),
+            InlineKeyboardButton('Telegraph', callback_data='tele')
             ],[
-            InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
-            InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
+            InlineKeyboardButton('Whois', callback_data='whois'),
+            InlineKeyboardButton('Mute', callback_data='restric'),
+            InlineKeyboardButton('Kick', callback_data='zombies')
             ],[
-            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
+            InlineKeyboardButton('Report', callback_data='report'),
+            InlineKeyboardButton('Yt Thumb', callback_data='ytthumb'),
+            InlineKeyboardButton('Sticker ID', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
-            InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
-            InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
+            InlineKeyboardButton('Covid', callback_data='corona'),
+            InlineKeyboardButton('Audio Book', callback_data='abook'),
+            InlineKeyboardButton('Url Short', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            InlineKeyboardButton('Translate', callback_data='gtrans'),
+            InlineKeyboardButton('File Store', callback_data='newdata'),
+            InlineKeyboardButton('Status', callback_data='stats')
             ],[
-            InlineKeyboardButton(' 𝙱𝙰𝙲𝙺 ', callback_data='start')
+            InlineKeyboardButton(' Back ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -834,43 +834,43 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hellp":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('Manuel Filter', callback_data='manuelfilter'),
+            InlineKeyboardButton('Auto Filter', callback_data='autofilter'),
+            InlineKeyboardButton('Connection', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video')
+            InlineKeyboardButton('Song', callback_data='songs'),
+            InlineKeyboardButton('Extra', callback_data='extra'),
+            InlineKeyboardButton("Video", callback_data='video')
             ],[
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'), 
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
+            InlineKeyboardButton('Pin', callback_data='pin'), 
+            InlineKeyboardButton('Paste', callback_data='pastes'),
+            InlineKeyboardButton("Image", callback_data='image')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('Fun', callback_data='fun'), 
+            InlineKeyboardButton('Jsone', callback_data='son'),
+            InlineKeyboardButton('Tts', callback_data='ttss')
             ],[
-            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings'),
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele')
+            InlineKeyboardButton('Purge', callback_data='purges'),
+            InlineKeyboardButton('Ping', callback_data='pings'),
+            InlineKeyboardButton('Telegraph', callback_data='tele')
             ],[
-            InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
-            InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
+            InlineKeyboardButton('Whois', callback_data='whois'),
+            InlineKeyboardButton('Mute', callback_data='restric'),
+            InlineKeyboardButton('Kick', callback_data='zombies')
             ],[
-            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
-            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
-            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
+            InlineKeyboardButton('Report', callback_data='report'),
+            InlineKeyboardButton('Yt Thumb', callback_data='ytthumb'),
+            InlineKeyboardButton('Sticker ID', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
-            InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
-            InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
+            InlineKeyboardButton('Covid', callback_data='corona'),
+            InlineKeyboardButton('Audio Book', callback_data='abook'),
+            InlineKeyboardButton('Url Short', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            InlineKeyboardButton('Translate', callback_data='gtrans'),
+            InlineKeyboardButton('File Store', callback_data='newdata'),
+            InlineKeyboardButton('Status', callback_data='stats')
             ],[
-            InlineKeyboardButton(' 𝙱𝙰𝙲𝙺 ', callback_data='start')
+            InlineKeyboardButton(' Back ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")

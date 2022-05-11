@@ -3,7 +3,7 @@ class script(object):
 My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️ Powered by :- @YourX 🤹🏻"""
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
-    ABOUT_TXT = """<b>✮ My Name: MissQuto</b>
+    ABOUT_TXT = """<b>✮ My Name: Kajal Shukla</b>
 <b>✮ Creator: <a href=https://t.me/YourX>YourX</a></b>
 <b>✮ Language: Python 3</b>
 <b>✮ Data Base: Mongo-DB</b>

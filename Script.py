@@ -5,7 +5,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️ Powere
 𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
     ABOUT_TXT = """<b>✮ Name: Kajal Shukla</b>
 <b>✮ Creator: <a href=https://t.me/YourX>YourX</a></b>
-<b>✮ Language: Python 3</b>
+<b>✮ Language: Python </b>
 <b>✮ Data Base: Mongo-DB</b>
 <b>✮ Bot Server: Heroku</b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 

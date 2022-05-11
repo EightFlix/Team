@@ -5,7 +5,6 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️ Powere
 𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
     ABOUT_TXT = """<b>✮ My Name: MissQuto</b>
 <b>✮ Creator: <a href=https://t.me/YourX>YourX</a></b>
-<b>✮ Library: Pyrogram</b>
 <b>✮ Language: Python 3</b>
 <b>✮ Data Base: Mongo-DB</b>
 <b>✮ Bot Server: Heroku</b>"""

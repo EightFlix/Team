@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """Hi {},
-My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot.Add Me Your Group 🕵️ Powered by :- @YourX 🤹🏻"""
+My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. Add Me Your Group      🕵️ Powered by :- @YourX 🤹🏻"""
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
     ABOUT_TXT = """<b>✮ Name: Kajal Shukla</b>

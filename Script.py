@@ -1,14 +1,14 @@
 class script(object):
     START_TXT = """Hi {},
 My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. 🕵️ Powered by :- @YourX 🤹🏻"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """Hey {}
+𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
     ABOUT_TXT = """<b>✮ My Name: MissQuto</b>
-<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/YourX>YourX</a></b>
-<b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
-<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
-<b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱</b>
-<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>"""
+<b>✮ Creator: <a href=https://t.me/YourX>YourX</a></b>
+<b>✮ Library: Pyrogram</b>
+<b>✮ Language: Python 3</b>
+<b>✮ Data Base: Mongo-DB</b>
+<b>✮ Bot Server: Heroku</b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>

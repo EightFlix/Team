@@ -746,6 +746,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('Add Me Your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             ],[      
             InlineKeyboardButton(' Help', callback_data='help'),
             InlineKeyboardButton('About', callback_data='about')

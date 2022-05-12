@@ -3,7 +3,7 @@ class script(object):
 My Name Is <a href=https://t.me/{}>{}</a>, I Am Media Search Bot. Add Me Your Group           """
     HELP_TXT = """Hey {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 My Help Commands."""
-    ABOUT_TXT = """<b>✮ Name: {} </b>
+    ABOUT_TXT = """<b>✮ Name: {}
 <b>✮ Creator: <a href=https://t.me/YourX>YourX</a></b>
 <b>✮ Language: Python </b>
 <b>✮ Data Base: Mongo-DB</b>

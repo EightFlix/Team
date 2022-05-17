@@ -72,7 +72,7 @@ Note:- Give a user details
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᗩᒍᗩ᙭ should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -135,7 +135,7 @@ Helps you to know your ping 🚶🏼‍♂️
 • /ping - To get your ping.
 • /repo - Source Code.
 • /channel - Channel Details.
-• /ajax - Bot Link.
+• /YourX - Bot Link.
 <b> Usage :</b>
 
 • This commands can be used in pms and groups
@@ -243,21 +243,21 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
-<b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
-    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    STATUS_TXT = """<b>🗃️ Total Files: <code>{}</code></b>
+<b>👪 Total Users: <code>{}</code></b>
+<b>💬 Total Chats: <code>{}</code></b>
+<b>📂 Used Storage: <code>{}</code> 𝙼𝙱</b>
+<b>🗂 Free Storage: <code>{}</code> 𝙼𝙱</b>"""
+    LOG_TEXT_G = """🚩#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
-<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
-<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ <code>{}</code></b>
-<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
+<b>👪 Group ⪼ {}(<code>{}</code>)</b>
+<b>👨‍👩‍👧‍👧 Total Members ⪼ <code>{}</code></b>
+<b>🦹 Add By ⪼ {}</b>
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
     
-<b>᚛› 𝐈𝐃 - <code>{}</code></b>
-<b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
+<b>🆔 ID - <code>{}</code></b>
+<b>👮 Name - {}</b>
 """
     REPORT_TXT = """➤ 𝐇𝐞𝐥𝐩: Rᴇᴘᴏʀᴛ ⚠️
 
